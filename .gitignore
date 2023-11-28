@@ -1,0 +1,6 @@
+# JS and Vitepress
+**/node_modules/*
+/docs/.vitepress/dist
+/docs/.vitepress/cache
+#MacOS Files
+.DS_Store
