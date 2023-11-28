@@ -43,7 +43,7 @@ sudo reboot
 ```
 6. Test the driver is functioning correctly
 ```bash
-    nvidia-smi
+nvidia-smi
 ```
 The expected result is as follows:
 ```bash
@@ -73,8 +73,8 @@ Thu Nov 16 01:36:43 2023
 ## Install the Nvidia extension for docker
 1. Configure the repository:
 ```bash
-    curl -s -L https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo | \
-    sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo
+curl -s -L https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo | \
+  sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo
 ```
 
 2. Install the NVIDIA Container Toolkit packages:
