@@ -26,9 +26,9 @@ export default defineConfig({
 
     lastUpdated: true,
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/augoor-installation/augoor-installation' }
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/augoor-installation/augoor-installation' }
+    // ],
 
     markdown: {
       // toc: { level: [3] },
