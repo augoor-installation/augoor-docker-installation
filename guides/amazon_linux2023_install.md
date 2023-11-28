@@ -46,11 +46,11 @@ Connect to the instance created to run Augoor in the previous steps by SSH or Se
 ### Download Augoor Installer
 To download the installer, you must follow the next steps:
 ```bash
-    # 1. Download Augoor installer form Augoor S3.
-    wget https://augoor-docker-installer.s3.us-east-2.amazonaws.com/augoor_docker_install_9.1.zip
+# 1. Download Augoor installer form Augoor S3.
+wget https://augoor-docker-installer.s3.us-east-2.amazonaws.com/augoor_docker_install_9.1.zip
 
-    # 2. Unzip the augoor_docker_install.zip file
-    unzip augoor_docker_install_9.1.zip
+# 2. Unzip the augoor_docker_install.zip file
+unzip augoor_docker_install_9.1.zip
 ```
 
 ### Install Drivers and Docker software
