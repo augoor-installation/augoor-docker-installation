@@ -24,6 +24,8 @@ export default defineConfig({
 
     sidebar: sidebars(),
 
+    lastUpdated: true,
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/augoor-installation/augoor-installation' }
     ],

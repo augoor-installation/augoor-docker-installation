@@ -21,11 +21,11 @@ yarn docs:dev
 
 This will start a web server printing the following in your terminal
 ```bash
-  vitepress v1.0.0-rc.31
+vitepress v1.0.0-rc.31
 
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h to show help
+➜  Local:   http://localhost:5173/
+➜  Network: use --host to expose
+➜  press h to show help
 ```
 
 Open the link to browse the documentation. You can edit the documentation and vitepress will automatically refresh your browser content.
