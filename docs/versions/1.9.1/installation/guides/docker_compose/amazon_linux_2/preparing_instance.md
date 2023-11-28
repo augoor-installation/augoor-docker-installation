@@ -117,7 +117,7 @@ newgrp docker
 
 Run the following command.
 ```bash
-  docker -v
+docker -v
 ```
 
 ## Install Docker Compose version 2.22.0 or higher
