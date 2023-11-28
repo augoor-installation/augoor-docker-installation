@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "Augoor"
-  text: "Docker Installation Guides"
-  tagline: Learn how to install and configure Augoor
+  name: "Augoor Installation Guides"
+  # text: "Docker Installation Guides"
+  tagline: Learn how to install and configure Augoor using Docker Compose
   actions:
     - theme: brand
-      text: Getting Started
+      text: Getting Started with Docker Compose
       link: /1.9.1/installation/index
 features:
   # - title: Deploy on Kubernetes
