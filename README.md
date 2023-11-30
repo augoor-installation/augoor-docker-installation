@@ -1,3 +1,5 @@
+[![Deploy VitePress site to Pages](https://github.com/augoor-installation/augoor-docker-installation/actions/workflows/deploy.yaml/badge.svg)](https://github.com/augoor-installation/augoor-docker-installation/actions/workflows/deploy.yaml)
+
 # Augoor Docker Installation
 
 This repository uses [Vitepress](https://vitepress.dev/) to build a static site containing the documentation guides for installing Augoor using Docker Compose.
