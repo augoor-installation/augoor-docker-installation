@@ -63,15 +63,15 @@ You can view a list of the installed services, which should total 16. Please ref
 | sn_frontend_proxy        | Frontend Proxy Service        | v1.0 |   
 | sn_model_inference       | Model Inference Service       | v1.0.1-multitas-006 | 
 | sn_model_services        | Model Service                 | v0.9.1| 
-| sn_semantic_conversation | Semantic Conversation Service | v0.6.12 | 
-| sn_structure_indexer     | Structure Indexer Service     | v0.3.0 | 
-| sn_structure_retrieval   | Structure Retrieval Service   | v0.4.0 | 
-| sn_zoekt_indexer         | Indexer Service               | v1.2.8-rsync-fix-2-memory-fix | 
-| sn_zoekt_search          | Search Service                | v1.2.8-rsync-fix-2-memory-fix |
-| sn_zoekt_sync            | Sync Service                  | v1.0 |
-| sn_ui                    | Frontend Service              | v0.7.19-patch1 |
 | sn_postgres              | Database Service              | v11 |
 | sn_queue                 | RabbitMQ Queue Service        | rabbitmq:3-management|
+| sn_semantic_conversation | Semantic Conversation Service | v0.6.12 |
+| sn_structure_indexer     | Structure Indexer Service     | v0.3.0 |
+| sn_structure_retrieval   | Structure Retrieval Service   | v0.4.0 |
+| sn_ui                    | Frontend Service              | v0.7.19-patch1 |
+| sn_zoekt_indexer         | Indexer Service               | v1.2.8-rsync-fix-2-memory-fix |
+| sn_zoekt_search          | Search Service                | v1.2.8-rsync-fix-2-memory-fix |
+| sn_zoekt_sync            | Sync Service                  | v1.0 |
 
 ::: tip CONGRATULATIONS
 You've just installed Augoor.
