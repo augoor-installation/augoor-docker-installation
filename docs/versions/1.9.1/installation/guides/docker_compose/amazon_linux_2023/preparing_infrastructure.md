@@ -36,6 +36,10 @@ This instance needs to accept TCP traffic on port `3000`.
 ### Allow internet access
 This instance needs internet access to download the required GPU drivers, the Augoor Docker Compose installer and, if needed, the required Augoor Docker images from the Augoor public registry, unless you are mirroring those images using your own private registry.
 
+::: tip Alternative: Mirror Augoor Docker Images
+<!--@include: ../parts/mirroring_docker_images.md-->
+:::
+
 ### Instance EC2 Role
 Create an EC2 Role that has the necessary permissions to download drivers from the relevant AWS bucket.
 
