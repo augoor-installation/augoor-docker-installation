@@ -2,6 +2,9 @@
 
 This repository uses [Vitepress](https://vitepress.dev/) to build a static site containing the documentation guides for installing Augoor using Docker Compose.
 
+Check the generated website at
+[https://augoor-installation.github.io/augoor-docker-installation/](https://augoor-installation.github.io/augoor-docker-installation/).
+
 ## Requirements
 * NodeJS
 * yarn
