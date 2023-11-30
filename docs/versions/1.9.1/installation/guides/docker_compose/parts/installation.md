@@ -74,6 +74,6 @@ You can view a list of the installed services, which should total 16. Please ref
 | sn_zoekt_sync            | Sync Service                  | v1.0 |
 
 ::: tip CONGRATULATIONS
-You've just installed Augoor.
+You've completed  Augoor installation. Navigate to your Augoor subdomain to start using it.
 :::
 
