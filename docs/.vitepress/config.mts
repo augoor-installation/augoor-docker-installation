@@ -20,6 +20,10 @@ export default defineConfig({
 
     head : [],
 
+    footer: {
+      copyright: '© 2022 Augoor™ . All right reserved &nbsp;&nbsp; | &nbsp;&nbsp; <a href="https://www.augoor.ai/policies">Policies</a>'
+    },
+
     lang: 'en-US',
 
     sidebar: sidebars(),
