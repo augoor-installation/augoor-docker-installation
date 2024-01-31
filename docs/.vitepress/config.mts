@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/', activeMatch: '' },
       { text: 'Installation', link: '/1.9.1/installation/index' , activeMatch: '/1.9.1/installation/' },
+      { text: 'Knowledge Center', link: '/knowledge_center/getting_started/index', activeMatch: '/knowledge_center/getting_started/' },
       { text: 'Augoor.ai', link: 'https://augoor.ai' },
     ],
 
@@ -49,7 +50,8 @@ export default defineConfig({
 function sidebars() {
   return {
     '/1.9.1/installation/guides/docker_compose/amazon_linux_2/': docker_linux2_sidebar(),
-    '/1.9.1/installation/guides/docker_compose/amazon_linux_2023/': docker_linux2023_sidebar()
+    '/1.9.1/installation/guides/docker_compose/amazon_linux_2023/': docker_linux2023_sidebar(),
+    '/knowledge_center/getting_started': getting_started_sidebar()
   }
 }
 
@@ -79,6 +81,20 @@ function docker_linux2023_sidebar() {
         { text: 'Step 2. Preparing the EC2 instance', link: '/1.9.1/installation/guides/docker_compose/amazon_linux_2023/preparing_instance' },
         { text: 'Step 3. Configuration', link: '/1.9.1/installation/guides/docker_compose/amazon_linux_2023/configuration' },
         { text: 'Step 4. Installation', link: '/1.9.1/installation/guides/docker_compose/amazon_linux_2023/installation' },
+      ]
+    }
+  ]
+}
+
+function getting_started_sidebar() {
+  return [
+    { text: 'Overview', link: '/knowledge_center/getting_started/' },
+    {
+      text: 'Getting Started',
+      items: [
+        { text: 'Introduction to Augoor', link: '/knowledge_center/getting_started/introduction' },
+        { text: 'Login and Authentication', link: '/knowledge_center/getting_started/login_authentication' },
+        { text: 'Roles and permissions', link: '/knowledge_center/getting_started/roles_permissions' },
       ]
     }
   ]
