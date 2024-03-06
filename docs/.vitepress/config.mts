@@ -51,7 +51,14 @@ function sidebars() {
   return {
     '/1.9.1/installation/guides/docker_compose/amazon_linux_2/': docker_linux2_sidebar(),
     '/1.9.1/installation/guides/docker_compose/amazon_linux_2023/': docker_linux2023_sidebar(),
-    '/knowledge_center/getting_started': getting_started_sidebar()
+    '/knowledge_center/getting_started': getting_started_sidebar(),
+    '/knowledge_center/repository_management': getting_started_sidebar(),
+    '/knowledge_center/code_search': getting_started_sidebar(),
+    '/knowledge_center/code_documentation': getting_started_sidebar(),
+    '/knowledge_center/code_navigation': getting_started_sidebar(),
+    '/knowledge_center/code_assistant': getting_started_sidebar(),
+    '/knowledge_center/security': getting_started_sidebar(),
+    '/knowledge_center/support_resources': getting_started_sidebar(),
   }
 }
 
@@ -88,14 +95,66 @@ function docker_linux2023_sidebar() {
 
 function getting_started_sidebar() {
   return [
-    { text: 'Overview', link: '/knowledge_center/getting_started/' },
+    // { text: 'Overview', link: '/knowledge_center/getting_started/' },
     {
       text: 'Getting Started',
       items: [
         { text: 'Introduction to Augoor', link: '/knowledge_center/getting_started/introduction' },
         { text: 'Login and Authentication', link: '/knowledge_center/getting_started/login_authentication' },
-        { text: 'Roles and permissions', link: '/knowledge_center/getting_started/roles_permissions' },
+        { text: 'Roles and permissions', link: '/knowledge_center/getting_started/roles_permissions' }
       ]
-    }
+    },
+    {
+      text: 'Repository Management',
+      items: [
+        { text: 'Manage repositories', link: '/knowledge_center/repository_management/manage_repositories' },
+        { text: 'Repositories Status', link: '/knowledge_center/repository_management/repositories_status' },
+        { text: 'Manage subscriptions', link: '/knowledge_center/repository_management/manage_subscriptions' }
+      ]
+    },
+    {
+      text: 'Code Search',
+      items: [
+        { text: 'Search Overview', link: '/knowledge_center/code_search/search_overview' },
+        { text: 'Advanced Search Techniques', link: '/knowledge_center/code_search/advanced_search_techniques' },
+        { text: 'Interactive Tutorial', link: '/knowledge_center/code_search/Interactive_tutorial' }
+      ]
+    },
+    {
+      text: 'Code Documentation',
+      items: [
+        { text: 'Documentation Overview', link: '/knowledge_center/code_documentation/documentation_overview' },
+        { text: 'Interacting with the documentation', link: '/knowledge_center/code_documentation/interacting_documentation' }
+      ]
+    },
+    {
+      text: 'Code Navigation',
+      items: [
+        { text: 'Codemap overview', link: '/knowledge_center/code_navigation/codemaps_overview' },
+        { text: 'Navigating codemap', link: '/knowledge_center/code_navigation/navigating_codemap' },
+        { text: 'Conversational assistant (beta)', link: '/knowledge_center/code_navigation/conversational_assistant' }
+      ]
+    },
+    {
+      text: 'Code Assistant',
+      items: [
+        { text: 'AI Code Assistant', link: '/knowledge_center/code_assistant/' }
+      ]
+    },
+    {
+      text: 'Security',
+      items: [
+        { text: 'Security protocols', link: '/knowledge_center/security/' },
+      ]
+    },
+    {
+      text: 'Support and Resources',
+      items: [
+        { text: 'FAQs', link: '/knowledge_center/support_resources/faqs' },
+        { text: 'Troubleshooting guides', link: '/knowledge_center/support_resources/troubleshooting_guides' },
+        { text: 'What´s New', link: '/knowledge_center/support_resources/whats_new' },
+        { text: 'Support contact', link: '/knowledge_center/support_resources/support_contact' },
+      ]
+    },
   ]
 }
