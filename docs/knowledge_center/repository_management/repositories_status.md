@@ -2,15 +2,63 @@
 
 Keep track of your repositories' status in "Repositories" or in the "Manage Subscriptions" panel:
 
-| Status         | Description                                              |
-| -------------- | -------------------------------------------------------- |
-| Cloning        | Updates the current copy.                                |
-| Error          | There was an error during processing.                    |
-| New            | You have access to this repo but it has not been processed or subscribed yet. |
-| Not processed  | Still needs to be processed by the system.               |
-| Not subscribed | You haven't subscribed to that repository.               |
-| Processing     | Parses the code, generates documentation, and TAGs.      |
-| Ready          | Ready to explore.                                        |
+### Processing data status
+
+<table>
+  <tr>
+    <td>
+        <img src="../imgs/repository_management/cell.jpg" width="100%">
+    </td>
+    <td>
+        <img src="../imgs/repository_management/cell-2.jpg" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <strong>Processing Data...</strong><br />
+    Note the process of file processing and metadata generation involves multiple stages and may take time in order ensure enhanced accuracy..
+    </td>
+    <td>
+    <strong>Updating...</strong><br />
+    Updating repository with recent changes. This process syncs the latest modifications since the last update
+    </td>
+  </tr>
+</table>
+
+### Processing status
+
+| Status               | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| Not added            | Indicates a repository has not yet been added to Augoor.                    |
+| Awaiting processing  | Marks a repository that has been added to Augoor and is queued for processing. |
+| Cloning code…        | Augoor is currently cloning the repository's code from the provider.        |
+| Processing data…     | The repository is under processing within Augoor.                           |
+| Processing failed    | The processing of the repository encountered errors and failed.             |
+| Aborted              | The processing of the repository was manually aborted by a user.            |
+| Completed Processing | The repository has been successfully processed by Augoor.                    |
+| Removing             | The repository is currently being removed from Augoor.                      |
+| Removed              | The repository has been successfully removed from Augoor.                   |
+| Failed remove        | The attempt to remove the repository from Augoor failed.                    |
+
+### Search Status
+
+| Status       | Description                                                                                       |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Not added    | A repo has not yet been added in Augoor.                                                          |
+| Search Ready | Indicates readiness for executing searches in the repo.                                          |
+| Unavailable  | The repository's metadata has either been attempted to be deleted or has been completely deleted. |
+
+### Codemap Status
+
+| Status             | Description                                                                                      |
+|--------------------|--------------------------------------------------------------------------------------------------|
+| Initialized        | When a spider stage starts.                                                                      |
+| Processing data…   | During the execution of a spider stage.                                                          |
+| Skipped            | Stage skipped due to a disabled flag or unmet execution condition, such as no deltas to process or rewrite disabled. |
+| Failed             | A stage of the process throws an exception.                                                      |
+| Completed          | A spider stage is completed successfully.                                                        |
+| Succeeded          | A spider stage completes successfully and generates the necessary output to proceed in the process. |
+
 
 And you will also visualize the “Approval status” column with the following options:
 
@@ -21,7 +69,9 @@ And you will also visualize the “Approval status” column with the following 
 
 Only Admins: If you need to subscribe to specific branches from a Repository, click on the three dots from the “Actions” column and on “Subscribe repository”. A column with the available branches will display for you to select the ones to subscribe to. Once you approve this repository, only the branches you subscribed to will be available for Regular Users & Gatekeepers.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5acf7300-f940-49a0-a9ef-1557fb033f18/fa57c5d9-392e-4d16-ba1d-ef2cd7636f0a/Untitled.png)
+### Status repositories example 
+<br />
+<img src="../imgs/repository_management/repositories_status.jpg" alt="Subscribe to a repository" width="100%">
 
 
 :::info Note
